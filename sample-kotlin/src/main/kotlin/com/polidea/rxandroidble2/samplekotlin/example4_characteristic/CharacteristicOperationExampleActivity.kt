@@ -149,7 +149,7 @@ class CharacteristicOperationExampleActivity : AppCompatActivity() {
 
     private fun onWriteFailure(throwable: Throwable) = showSnackbarShort("Write error: $throwable")
 
-    private fun onNotificationReceived(bytes: ByteArray) = showSnackbarShort("Change: ${bytes.toHex()}")
+    private fun onNotificationReceived(bytes: ByteArray) = showSnackbarShort("Change: ${String(bytes)}")
 
     private fun onNotificationSetupFailure(throwable: Throwable) =
         showSnackbarShort("Notifications error: $throwable")

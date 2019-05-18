@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/edit_text_write_input"
             android:importantForAutofill="no"
-            android:inputType="numberDecimal"
+            android:inputType="text"
             tools:targetApi="o" />
     </LinearLayout>
 
