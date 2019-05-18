@@ -139,7 +139,7 @@ class CharacteristicOperationExampleActivity : AppCompatActivity() {
     }
 
     private fun onConnectionFailure(throwable: Throwable) {
-        showSnackbarShort("Connection error: $throwable")
+        showSnackbarShort("Connection error: $throwable ")
         updateUI(null)
     }
 
